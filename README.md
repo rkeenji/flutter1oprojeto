@@ -15,8 +15,11 @@ O projeto consiste em um sistema de gerenciamento de academia, contendo várias 
 
 Pelo programa é possível realizar o CRUD (Create, Read, Update e Delete) de alunos, funcionarios, planos, despesas e itens do inventario, além de gerar relatórios de Faturamento, Vendas, Despesas, Lucro, Planos ativos e Planos a vencer, tudo por uma interface amigável e intuitiva ao usuário.
 
-O código foi criado com base no padrão de projeto Repository, portanto a camada de acesso à dados (arquivos dentro da pasta Repository) está separada da camada de lógicas de negócio (arquivos dentro das pastas Models e Controllers).
+O Código foi criado com base nos padrões de projeto MVC (Model-View-Controller) e Repository.
 
 ## Tutorial de utilização:
-Primeiramente faça o Download do projeto no github
+Primeiramente faça o Download do projeto no github [Clique aqui para acessar o projeto]()
 
+Trocar as variávies de ambiente (Arquivo ConfigResource.resx) e colocar em BaseApiURL o endereço principal do backend (exemplo: https://localhost:5146?api) e no backend alterar em lauchSettings.json em "applicationUrl" em https e http o endereço (exemplo: https://localhost:5146?api) 
+
+Ao rodar a IDE, rode simultaneamente backend em HTTP o e o front-end normalmente.
