@@ -6,9 +6,9 @@
 Phillip Dylan e Rodrigo Kenji
 
 ## Tecnologias utilizadas
-Back-end: .NET e Entity Framework
-Banco de dados: SQL Server
-Front-end: Windows Forms
+1. Back-end: .NET e Entity Framework
+2. Banco de dados: SQL Server
+3. Front-end: Windows Forms
 
 ## Sobre o programa:
 O projeto consiste em um sistema de gerenciamento de academia, contendo várias funcionalidades que podem ser necessárias para uma boa gestão de seus alunos, planos, funcionarios e financias.
